@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
+ */
+
+.bannersite {
+  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+}
+.carta {
+  background-image: url('../image/2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100%;
+  border: 2px solid red;
+  margin: 0px;
+}
+.galeria-local {
+  background-image: url('../image/local.png');
+  background-size: 100% 100%;
+  height: 100vh;
+  border: 2px solid red;
+}
+.platos {
+  background-image: url('../image/platos.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  border: 2px solid red;
+}
+.reserva
+{
+  background-image: url('../image/4.png');
+  background-size: 100% 100%;
+  height: 100vh;
+  border: 2px solid red; 
+}
+.local{
+  background-image: url(../image/slide-local.png);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.historia{
+  background-image: url(../image/historia.png);
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.pie{
+background-color: #640000;
+height: 30vh;
+width: auto;
+}
+.col-sm-12.carta__title{
+position: static;
+padding-bottom: 125px;
+padding-top:175px;
+}
+.col-sm-12.carta__footer
+{
+position: static;
+padding-top: 105px;
+}

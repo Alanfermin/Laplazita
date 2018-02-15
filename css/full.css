@@ -5,7 +5,7 @@
  */
 
 .bannersite {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  background: url('http://placehold.it/1920x1080') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -57,18 +57,30 @@ height: 30vh;
 width: auto;
 }
 .col-sm-12.carta__title{
-position: static;
+position: relative;
 padding-bottom: 125px;
 padding-top:175px;
 }
 .col-sm-12.carta__footer
 {
-position: static;
+position: relative;
 padding-top: 105px;
 }
-.a396x300x1{
-width: 100%;
-height: 100%;
+#gallery{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    opacity: .5;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+  }
+img.ug-thumb-image.ug-trans-enabled {
+    width: 390px;
+    height: 360px;
+}
 
 }
 .a396x300x2{

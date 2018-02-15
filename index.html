@@ -12,12 +12,18 @@
       <!-- Íconos del menú-->
      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
       <!-- Gallery js-->
-    <script type='text/javascript' src='unitegallery/package/unitegallery/js/jquery-11.0.min.js'></script>
-    <script type='text/javascript' src='unitegallery/package/unitegallery/js/unitegallery.min.js'></script>  
-    <script type='text/javascript' src='unitegallery/package/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
-    <link rel='stylesheet' href='unitegallery/package/unitegallery/css/unite-gallery.css' type='text/css'> 
-   
-    <!-- Gallery js-->
+    <link rel='stylesheet' type='text/css' href='unitegallery/package/unitegallery/css/unite-gallery.css'> 
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/unitegallery/css/unite-gallery.css">    
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/theme-elements.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/theme-animate.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/theme-responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/skins/default.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="http://unitegallery.net/css/prism.css">
+
+
     </head>
   <body>
         <!-- Navbar -->
@@ -74,9 +80,9 @@
     <!-- Carta -->
     <div class="carta">
       <div class="container-fluid">
-              <div class="row"><div class="col-sm-12 carta__title"><h5 class="text-center">Carta</h5></div></div>
-              <div class="row"><div class="col-sm-12"><h5 class="text-center">Descargar Menú</h5></div></div>
-              <div class="row"><div class="col-sm-12 carta__footer"><h5 class="text-center">Piqueos & ensaladas / Sushi y sashimi / Tiraditos & ceviches / Makis & temakis /Barcos /Arroces /Pastas<br>Carnes & Aves/ Pescados & mariscos /Sopas / Tempuras / Vegetarianos / Postres / Bebidas</h5></div></div>       
+              <div class="row"><div class="col-sm-12 carta__title"><h5 class="text-center">Carta</h5>
+              <h5 class="text-center">Descargar Menú</h5>
+             <h5 class="text-center">Piqueos & ensaladas / Sushi y sashimi / Tiraditos & ceviches / Makis & temakis /Barcos /Arroces /Pastas<br>Carnes & Aves/ Pescados & mariscos /Sopas / Tempuras / Vegetarianos / Postres / Bebidas</h5></div></div>       
       </div>  
     </div>
     <!-- Fin Carta -->
@@ -85,40 +91,30 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-              <div id="gallery" style="display:none;">    
-                  <a href="http://unitegallery.net">
-                    <img alt="Lemon Slice"
-                         src="/image/22.png"
-                         data-image="images/big/tile1.jpg"
-                         data-description="This is a Lemon Slice"
-                         style="display:none"
-                         class="a396x300x1">
-                  </a>
-                  <a href="http://unitegallery.net">
-                    <img alt="Peppers"
-                         src="/image/33.png"
-                         data-image="images/big/tile2.jpg"
-                         data-description="Those are peppers"
-                         style="display:none"
-                         class="a396x300x2">
-                  </a>
-                  <a href="http://unitegallery.net">
-                    <img alt="Keys"
-                         src="unitegallery/package/images/thumbs/tile3.jpg"
-                         data-image="images/big/tile3.jpg"
-                         data-description="Those are keys"
-                         style="display:none"
-                         class="a396x240">
-                  </a>
-                  <a href="http://unitegallery.net">
-                    <img alt="Friuts in cup"
-                         src="unitegallery/package/images/thumbs/tile4.jpg"
-                         data-image="images/big/tile4.jpg"
-                         data-description="Those are friuts in a cup"
-                         style="display:none"
-                         class="a396x360">
-                  </a>
-              </div>
+             <div id="gallery" style="display:none;">
+                  <img alt="Image 1 Title" 
+                    src="image/11.png"
+                    data-image="image/11.png"
+                    data-description="Image 1 Description"
+                    class="a396x300x1">                  
+                  <img alt="Image 2 Title" 
+                    src="image/111.png"
+                    data-image="image/111.png"
+                    data-description="Image 2 Description"
+                    class="">
+                  <img alt="Image 3 Title" 
+                    src="image/22.png"
+                    data-image="image/22.png"
+                    data-description="Image 2 Description"
+                    class="">
+                  <img alt="Image 4 Title" 
+                    src="image/33.png"
+                    data-image="image/33.png"
+                    data-description="Image 2 Description"
+                    class="">
+             </div> 
+                  
+          </div>
                 
           </div>
           </div>
@@ -166,6 +162,9 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--Galería JS-->
+    <script type='text/javascript' src='http://unitegallery.net/unitegallery/js/jquery-11.0.min.js'></script>
+    <script type='text/javascript' src='http://unitegallery.net/unitegallery/js/unitegallery.min.js'></script>  
+    <script type='text/javascript' src='http://unitegallery.net/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
     <script type="text/javascript"> 
       jQuery("#gallery").unitegallery({
         tiles_type:"nested"
